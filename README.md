@@ -3,7 +3,7 @@ Cumprimento do desafio
 
 link para visualizar o site:
 
-https://desafio-lp-pedro.netlify.app/
+https://desafio-lp-pedro.netlify.app/](https://desafio-lp-pedro.netlify.app/
 
 link de captura de dados:
 
