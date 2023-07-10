@@ -121,27 +121,89 @@ button:hover {
     transition-duration: 0.5s;
 }
 
-#seta-direita {
+.seta {
     width: 50px;
     padding-left: 30px;
     cursor: pointer;
 }
 
 #seta-esquerda {
-    width: 50px;
     display: none;
-    cursor: pointer;
 }
 
 #imagem2 {
     display: none;
-    margin: 70px 75px 70px 50px;
+    margin: 70px 0px 70px 50px;
     height: 605px;
     width: 510px;
     border-radius: 30px;
 }
 
-.seta:hover {
-    transform: translateY(-7px);
-    transition-duration: 0.5s;
+/* Media queries */
+
+@media screen and (max-width: 768px) {
+    #menu-superior {
+        height: auto;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        text-align: center;
+    }
+
+    #titulo-superior {
+        margin: 20px;
+        font-size: 40px;
+    }
+
+    #texto-superior {
+        margin: 20px;
+        font-size: 20px;
+    }
+
+    #menu-informacional {
+        grid-auto-flow: row;
+        text-align: center;
+    }
+
+    .titulo,
+    .texto {
+        margin-left: 0;
+        font-size: 18px;
+    }
+
+    #secao-imagem {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #imagem {
+        margin: 30px;
+    }
+
+    #infotexto {
+        margin: 20px;
+        padding-left: 0;
+    }
+
+    #titulo-imagem {
+        font-size: 30px;
+    }
+
+    #texto-imagem {
+        font-size: 18px;
+    }
+
+    #formulario {
+        height: auto;
+    }
+
+    input,
+    button {
+        width: 80%;
+        margin: 10px auto;
+    }
+
+    .seta {
+        width: 30px;
+        padding-left: 10px;
+    }
 }
